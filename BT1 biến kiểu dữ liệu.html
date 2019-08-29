@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng và điểm trung bình</title>
+</head>
+<body>
+<script>
+    let inputphysiccal;
+    let inputchemistry;
+    let inputbiological;
+   inputphysiccal=prompt("Nhập điểm môn vật lý");
+   inputchemistry=prompt("Nhập điểm môn hóa học");
+   inputbiological=prompt("Nhập điểm môn sinh học");
+   let physical=parseInt(inputphysiccal);
+   let chemistry=parseInt(inputchemistry);
+   let biological=parseInt(inputbiological);
+   document.write("Tổng điểm ="+(physical+chemistry+biological));
+   document.write('<br/>')
+   document.write("Điểm trung bình bằng"+(physical+chemistry+biological)/3);
+</script>
+</body>
+</html>
